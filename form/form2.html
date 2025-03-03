@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>無標題文件</title>
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+</head>
+
+<body>
+
+<form action="" method="get">
+  <table width="606" height="388" border="1" align="center">
+    <tr>
+      <td width="243">帳號</td>
+      <td width="241"><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield"></td>
+    </tr>
+    <tr>
+      <td>密碼</td>
+      <td><label for="textfield2"></label>
+      <input type="password" name="textfield2" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td>性別</td>
+	  <td><p>
+	    <label>
+	      <input type="radio" name="sex" value="female" id="sex_0">
+	      女</label>
+	    <label>
+	      <input type="radio" name="sex" value="male" id="sex_1">
+	      男</label>
+	    <br>
+      </p></td>
+    </tr>
+    <tr>
+      <td>學歷</td>
+      <td><label for="select"></label>
+        <select name="select" id="select">
+          <option value="高中">高中</option>
+          <option value="大學" selected>大學</option>
+          <option value="專科">專科</option>
+          <option value="研究所">研究所</option>
+          <option value="博士">博士</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>興趣</td>
+      <td><input name="checkbox" type="checkbox" id="checkbox" value="打球">
+      <label for="checkbox">打球
+        <input name="checkbox2" type="checkbox" id="checkbox2" value="游泳">
+      游泳
+      <input name="checkbox3" type="checkbox" id="checkbox3" value="看書">
+      看書</label></td>
+    </tr>
+    <tr>
+      <td>我的網址</td>
+      <td><select name="jumpMenu" id="jumpMenu" onChange="MM_jumpMenu('parent',this,0)">
+        <option value="http://www.google.com.tw" selected>www.google</option>
+        <option value="http://tw.yahoo.com">tw.yahoo</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>自我介紹</td>
+      <td><label for="textarea"></label>
+      <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" name="submit" id="submit" value="送出"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>無標題文件</title>
+<script type="text/javascript" src="vf.js"></script>
+</head>
+
+<body>
+<form name="f" id="f" method="post" action=""><!--將表單名稱與id都設成一個自訂的特殊名稱f以便讓JavaScript存取-->
+  <table width="686" height="357" border="1" align="center">
+    <tr>
+      <td width="228">姓名</td>
+      <td width="442"><label for="textfield"></label>
+      <input type="text" name="username" id="username"></td>
+    </tr>
+    <tr>
+      <td>密碼</td>
+      <td><label for="textfield2"></label>
+      <input type="text" name="pwd" id="pwd"></td>
+    </tr>
+    <tr>
+      <td>確認密碼</td>
+      <td><label for="textfield3"></label>
+      <input type="text" name="cpwd" id="cpwd"></td>
+    </tr>
+    <tr>
+      <td>信箱</td>
+      <td><label for="textfield4"></label>
+      <input type="text" name="email" id="email"></td>
+    </tr>
+    <tr>
+      <td>電話</td>
+      <td><label for="textfield5"></label>
+      <input type="text" name="tel" id="tel"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="button" name="button" id="button" onclick="vf()" value="按鈕"></td><!--若發生按一下事件就呼叫程式vf()-->
+    </tr>
+  </table>
+</form>
+</body>
+</html>
